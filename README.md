@@ -1,13 +1,12 @@
-# SEG-FAULT
-### NOTE: Both programs have to be executed in Jupyter, for the graphs to be visible.
-
-### Also, a GUI based version of the demonstrated application could not be developed because of time constraints and late registration.
-
 #### Problem Statement
 Participants will be provided with a dataset containing COVID-19 infections in a city of area 400 square kilometres over a period of 240 days. Using this data, each team is expected to come up with innovative solutions using this dataset.
 
 #### Solutions/Applications:
 The file “Graphical_Anlaysis.py” contains a menu-driven program, when prompted in a Jupyter instance, outputs a graph containing various details. This can be used to calculate the percentage of the number of people who are at risk because of COVID-19.
+
+#### Algorithms Used:
+<p>DBSCAN (Density-Based Spatial Clustering of Applications with Noise)</p>
+<p>OPTICS (Ordering Points to Identify Clustering Structure)</p>
 
 ### Graphical Analysis
 ![TimeOfInfection](https://user-images.githubusercontent.com/69480337/99783166-1418c100-2b40-11eb-919b-a81db9c868e5.png)
@@ -27,7 +26,3 @@ The file “Graphical_Anlaysis.py” contains a menu-driven program, when prompt
  <img width="460" height="300" src="https://github.com/dpsbangalorenorth/SEG-FAULT/blob/Prediction-Graphs/ProbabilityofInfection.png">
 </p>
 <p align="center">**Probability of Infection Heat Map**</p>
-
-#### Algorithms Used:
-<p>DBSCAN (Density-Based Spatial Clustering of Applications with Noise)</p>
-<p>OPTICS (Ordering Points to Identify Clustering Structure)</p>
